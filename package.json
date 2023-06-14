@@ -4,7 +4,8 @@
   "description": "Test a qa-automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-chrome": "cypress run --spec cypress/e2e/ --browser chrome"
   },
   "author": "jocparzu",
   "license": "ISC",
