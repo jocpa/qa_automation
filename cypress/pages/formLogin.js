@@ -21,3 +21,4 @@ class formLogin {
     }
 
 }
+module.exports = new formLogin();
