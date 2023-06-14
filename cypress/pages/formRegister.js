@@ -1,4 +1,3 @@
-const { last } = require("cypress/types/lodash");
 
 class formRegister {
 
@@ -11,7 +10,8 @@ class formRegister {
         email: () => cy.get('#emailAddress'),
         password: () => cy.get('#password'),
         termns: () => cy.get('#exampleCheck1'),
-        registerBtn: () => cy.get('#registerBtn')
+        registerBtn: () => cy.get('#registerBtn'),
+        alertMessage: () => cy.get('#message')
 
     }
 
