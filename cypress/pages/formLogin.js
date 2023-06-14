@@ -10,4 +10,14 @@ class formLogin {
 
     }
 
+    typeEmail(email) {
+        this.elements.email().type(email)
+    }
+    typePassword(pass) {
+        this.elements.password().type(pass)
+    }
+    clickSubmit() {
+        this.elements.submitButton().click()
+    }
+
 }
