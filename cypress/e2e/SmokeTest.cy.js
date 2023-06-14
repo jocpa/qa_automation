@@ -1,5 +1,12 @@
+
+///<reference types="cypress" />
+
 describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
+  const url = 'https://qa-automation-practice.netlify.app/'
+
+  it('Smoke Test', () => {
+    cy.visit(url)
+    cy.get('.display-4').should('exist')
   })
+
 })
