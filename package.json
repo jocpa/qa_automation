@@ -1,0 +1,14 @@
+{
+  "name": "qa_automation",
+  "version": "1.0.0",
+  "description": "Test a qa-automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jocparzu",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.14.0"
+  }
+}
